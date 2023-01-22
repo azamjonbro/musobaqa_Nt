@@ -9,29 +9,502 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <footer class="footer">
-        <div class="container footer">
-            <div class="footer_container-flexbox">
-                <ul class="footer_container-flexbox_leftRow">
-                    <div class="footer_container-flexbox_leftRow-logobox">
-                        <a href="index.html">
-                            <img src="./images/Logo1.svg" alt="" class="footer_container-flexbox_leftRow-logobox-logo">
-                        </a>
-                    </div>
-                    <div class="iconbox">
-                        <a href="https://facebook.com"><i class="fa-brands fa-square-facebook"></i></a>
-                        <a href="httpss://instagram.com"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="https://behance.com"><i class="fa-brands fa-behance"></i></a>
-                        <a href="https:twitter.com"><i class="fa-brands fa-twitter"></i></a>
-                    </div>
 
-                    <h3>salom</h3>
-                </ul>
+    <section class="header">
+        <div class="container">
+            <div class="header__navbar">
+                <a class="header__logo-link" href="./index.html">
+                    <img class="header__logo" src="./imgs/logo1.svg" width="144" height="36" alt="Company logo">
+                </a>
+                <nav class="header__nav-menu">
+                    <i class="header__nav-x fa-solid fa-xmark"></i>
+                    <div class="header__navflex1">
+                        <a class="header__nav-link" href="#" data-w="0">Home</a>
+                        <a class="header__nav-link" href="#" data-w="0">Products</a>
+                        <a class="header__nav-link" href="#" data-w="0">Categories</a>
+                        <a class="header__nav-link" href="#" data-w="0">About</a>
+                        <a class="header__nav-link" href="#" data-w="0">Contact us</a>
+                    </div>
+                    <div class="header__navflex2" >
+                        <a class="header__nav-link2" href="#" data-w="0">My Shipping</a>
+                        <a class="header__nav-link2" href="#" data-w="0">Order status</a>
+                        <a class="header__nav-link2" href="#" data-w="0">Sizing</a>
+                        <a class="header__nav-link2" href="#" data-w="0">Returns</a>
+                        <a class="header__nav-link2" href="#" data-w="0">Sign in</a>
+                        <a class="header__nav-link2" href="#" data-w="0">Register</a>
+                    </div>
+                    <div class="header__navflex3">
+                        <a class="header__nav-link3" href="#" data-w="0">Dinning room</a>
+                        <a class="header__nav-link3" href="#" data-w="0">Bedroom</a>
+                        <a class="header__nav-link3" href="#" data-w="0">All Products</a>
+                    </div>
+                </nav>
+                <i class="header__burger-icon fa-solid fa-bars"></i>
+                <div class="header__nav-icon">
+                    <a href="#"><i class="header__icon fa-solid fa-magnifying-glass"></i></a>
+                    <a href="#"><i class="header__icon fa-solid fa-cart-shopping"></i></a>
+                    <a href="#"><i class="header__icon fa-regular fa-circle-user"></i></a>
+                </div>
+            </div>
+
+            <div class="header__title">
+                <h1 class="header__title-text">Exclusive Deals of <br> Furniture Collection</h1>
+                <p class="header__disc-text">Explore different categories. Find the best deals.</p>
+                <button type="button" class="header__btn">Shop Now</button>
             </div>
         </div>
-    </footer>
+    </section>
+
+    <main>
+        <section class="category-section">
+          <div class="container">
+            <div class="category">
+              <h3 class="category_title">Explore by Category</h3>
+              <div class="category_content">
+                <div class="category_list-wrapper">
+                  <input class="category_inpt" type="text" placeholder="Search" />
+                  <div class="category_list_wrap">
+                    <ul class="category_list">
+                      <li class="category_list-item">
+                        <a class="category_link" href="#">Bedroom</a>
+                      </li>
+                      <li class="category_list-item">
+                        <a class="category_link" href="#">Dinning Room</a>
+                      </li>
+                      <li class="category_list-item">
+                        <a class="category_link" href="#">Meeting Room</a>
+                      </li>
+                      <li class="category_list-item">
+                        <a class="category_link" href="#">Workspace</a>
+                      </li>
+                      <li class="category_list-item">
+                        <a class="category_link" href="#">Living Room</a>
+                      </li>
+                      <li class="category_list-item">
+                        <a class="category_link" href="#">Kitchen</a>
+                      </li>
+                      <li class="category_list-item">
+                        <a class="category_link" href="#">Living Space</a>
+                      </li>
+                      <li class="category_list-item">
+                        <a class="category_link" href="#">Living Space</a>
+                      </li>
+                      <li class="category_list-item">
+                        <a class="category_link" href="#">Living Space</a>
+                      </li>
+                      <li class="category_list-item">
+                        <a class="category_link" href="#">Living Space</a>
+                      </li>
+                      
+                    </ul>
+                  </div>
+                  <button class="category_btn">All categories</button>
+                </div>
+                <div class="category_imgs-wrap">
+                  <ul class="imgs_list">
+                    <li class="imgs_list-item">
+                      <div class="item_content">
+                        <h5 class="item_name">Bedroom</h5>
+                        <button class="item_btn">Explore</button>
+                      </div>
+                      <img class="item_img-ex" src="/imgs/bedroom.png" alt="bedroom" />
+                    </li>
+                    <li class="imgs_list-item">
+                      <div class="item_content">
+                        <h5 class="item_name">Dinning Room</h5>
+                        <button class="item_btn">Explore</button>
+                      </div>
+                      <img class="item_img-ex" src="/imgs/dinningroom.png" alt="dinning-room" />
+                    </li>
+                    <li class="imgs_list-item">
+                      <div class="item_content">
+                        <h5 class="item_name">Meeting Room</h5>
+                        <button class="item_btn">Explore</button>
+                      </div>
+                      <img class="item_img-ex" src="/imgs/meetingroom.png" alt="meeting-room" />
+                    </li>
+                    <li class="imgs_list-item">
+                      <div class="item_content">
+                        <h5 class="item_name">Workspace</h5>
+                        <button class="item_btn">Explore</button>
+                      </div>
+                      <img class="item_img-ex" src="/imgs/workspace.png" alt="workspace" />
+                    </li>
+                    <li class="imgs_list-item">
+                      <div class="item_content">
+                        <h5 class="item_name">Living Room</h5>
+                        <button class="item_btn">Explore</button>
+                      </div>
+                      <img class="item_img-ex" src="/imgs/livingroom.png" alt="livingroom" />
+                    </li>
+                    <li class="imgs_list-item">
+                      <div class="item_content">
+                        <h5 class="item_name">Kitchen</h5>
+                        <button class="item_btn">Explore</button>
+                      </div>
+                      <img class="item_img-ex" src="/imgs/kitchen.png" alt="kitchen" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <section class="popular-products-section">
+        <div class="container">
+            <div class="popular-products">
+                <h1 class="caption">Popular Products</h1>
+                <div class="popular-products__slider">
+                    <div class="popular-products__slider-line">
+                        <div class="popular-products__slider-block popular-products__slider-block-1">
+                            <img src="./imgs/armchair.png" alt="armchair" class="popular-products__slider-block-img popular-products__slider-block-img-1">
+                            <div class="popular-products__slider-block-bot">
+                                <h3 class="popular-products__slider-block-bot-title">Armchair</h3>
+                                <p class="popular-products__slider-block-bot-subtitle">Light single chair</p>
+                                <p class="popular-products__slider-block-bot-price">$145</p>
+                            </div>
+                        </div>
+                        <div class="popular-products__slider-block popular-products__slider-block-2">
+                            <img src="./imgs/premium-chair.png" alt="premiun-chair" class="popular-products__slider-block-img popular-products__slider-block-img-2">
+                            <div class="popular-products__slider-block-bot">
+                                <h3 class="popular-products__slider-block-bot-title">Premium Sofa</h3>
+                                <p class="popular-products__slider-block-bot-subtitle">Light single chair</p>
+                                <p class="popular-products__slider-block-bot-price">$130</p>
+                            </div>
+                        </div>
+                        <div class="popular-products__slider-block popular-products__slider-block-3">
+                            <img src="./imgs/minimal-sofa.png" alt="minimal-sofa" class="popular-products__slider-block-img popular-products__slider-block-img-3">
+                            <div class="popular-products__slider-block-bot">
+                                <h3 class="popular-products__slider-block-bot-title">Minimal Sofa</h3>
+                                <p class="popular-products__slider-block-bot-subtitle">Light single chair</p>
+                                <p class="popular-products__slider-block-bot-price">$110</p>
+                            </div>
+                        </div>
+                        <div class="popular-products__slider-block popular-products__slider-block-4">
+                            <img src="./imgs/dinning-chair.png" alt="dining-chair" class="popular-products__slider-block-img popular-products__slider-block-img-4">
+                            <div class="popular-products__slider-block-bot">
+                                <h3 class="popular-products__slider-block-bot-title">Dining Chair</h3>
+                                <p class="popular-products__slider-block-bot-subtitle">Light single chair</p>
+                                <p class="popular-products__slider-block-bot-price">$160</p>
+                            </div>
+                        </div>
+                        <div class="popular-products__slider-block popular-products__slider-block-1">
+                            <img src="./imgs/armchair.png" alt="armchair" class="popular-products__slider-block-img popular-products__slider-block-img-1">
+                            <div class="popular-products__slider-block-bot">
+                                <h3 class="popular-products__slider-block-bot-title">Armchair</h3>
+                                <p class="popular-products__slider-block-bot-subtitle">Light single chair</p>
+                                <p class="popular-products__slider-block-bot-price">$145</p>
+                            </div>
+                        </div>
+                        <div class="popular-products__slider-block popular-products__slider-block-2">
+                            <img src="./imgs/premium-chair.png" alt="premiun-chair" class="popular-products__slider-block-img popular-products__slider-block-img-2">
+                            <div class="popular-products__slider-block-bot">
+                                <h3 class="popular-products__slider-block-bot-title">Premium Sofa</h3>
+                                <p class="popular-products__slider-block-bot-subtitle">Light single chair</p>
+                                <p class="popular-products__slider-block-bot-price">$145</p>
+                            </div>
+                        </div>
+                        <div class="popular-products__slider-block popular-products__slider-block-3">
+                            <img src="./imgs/minimal-sofa.png" alt="minimal-sofa" class="popular-products__slider-block-img popular-products__slider-block-img-3">
+                            <div class="popular-products__slider-block-bot">
+                                <h3 class="popular-products__slider-block-bot-title">Minimal Sofa</h3>
+                                <p class="popular-products__slider-block-bot-subtitle">Light single chair</p>
+                                <p class="popular-products__slider-block-bot-price">$145</p>
+                            </div>
+                        </div>
+                        <div class="popular-products__slider-block popular-products__slider-block-4">
+                            <img src="./imgs/dinning-chair.png" alt="dining-chair" class="popular-products__slider-block-img popular-products__slider-block-img-4">
+                            <div class="popular-products__slider-block-bot">
+                                <h3 class="popular-products__slider-block-bot-title">Dining Chair</h3>
+                                <p class="popular-products__slider-block-bot-subtitle">Light single chair</p>
+                                <p class="popular-products__slider-block-bot-price">$145</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="popular-products__slider-bot">
+                    <div class="popular-products__slider-bot-nav-scroll">
+                        <div class="popular-products__slider-bot-nav-line">
+                            <div class="popular-products__slider-bot-nav-cursor"></div>
+                        </div>
+                    </div>
+                    <div class="popular-products__slider-bot-nav-btns">
+                        <div class="popular-products__slider-bot-nav-btn1"><img src="./imgs/arrow-left.png" alt="arrow"></div>
+                        <div class="popular-products__slider-bot-nav-btn2"><img src="./imgs/arrow-right.png" alt="arrow"></div>
+                    </div>
+                    <button class="popular-products__slider-bot-btn">Explore all items <img src="./imgs/arrow-right.png" alt="arrow"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="special-section">
+        <div class="container">
+            <div class="special">
+                <h1 class="caption">Special Package</h1>
+                <div class="special__inner">
+                    <div class="special__big-product">
+                        <img src="./imgs/img1.jpg" alt="room" class="special__big-img">
+                        <div class="special__big-product-bot">
+                            <div class="special__big-product-bot-title">
+                                <h2 class="special__big-product-bot-caption">Larkin Wood Full Set</h2>
+                                <div class="special__big-product-rate">
+                                    <img src="./imgs/star.png" alt="star">
+                                    <img src="./imgs/star.png" alt="star">
+                                    <img src="./imgs/star.png" alt="star">
+                                    <img src="./imgs/star.png" alt="star">
+                                    <img src="./imgs/star.png" alt="star">
+                                </div>
+                                <p class="special__big-product-bot-price">$729.99</p>
+                            </div>
+                            <button class="special__big-product-bot-btn">Add to cart <img src="./imgs/cart.png" alt=""></button>
+                        </div>
+                    </div>
+                    <div class="special__slider-block">
+                        <div class="special__description">
+                            <h3 class="special__description-caption">Description</h3>
+                            <p class="special__description-text">Cast Aluminum Outdoor Chaise Lounge As an elegant and classic touch to your outdoor space, this cast Aluminum Chaise Lounge combines the appearance, function and quality all together, offering you with the best experience.</p>
+                        </div>
+                        <div class="special__slider">
+                            <div class="special__slider-line">
+                                <div class="special__slider-item">
+                                    <img src="./imgs/img2.jpg" alt="room" class="special__slider-item-img">
+                                    <div class="special__slider-item-title">
+                                        <div class="special__slider-item-title-top">
+                                            <h3 class="special__slider-item-title-caption">Living Room Family Set</h3>
+                                            <p class="special__slider-item-title-price">$229.99</p>
+                                        </div>
+                                        <div class="special__slider-item-rate">
+                                            <img src="./imgs/star.png" alt="star" class="special__slider-item-star">
+                                            <img src="./imgs/star.png" alt="star" class="special__slider-item-star">
+                                            <img src="./imgs/star.png" alt="star" class="special__slider-item-star">
+                                            <img src="./imgs/star.png" alt="star" class="special__slider-item-star">
+                                            <img src="./imgs/star.png" alt="star" class="special__slider-item-star">
+                                        </div>
+                                        <p class="special__slider-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        <a href="#" class="special__slider-item-link">See Details</a>
+                                    </div>
+                                </div>
+                                <div class="special__slider-item">
+                                    <img src="./imgs/img3.jpg" alt="room" class="special__slider-item-img">
+                                    <div class="special__slider-item-title">
+                                        <div class="special__slider-item-title-top">
+                                            <h3 class="special__slider-item-title-caption">Living Room Special Set</h3>
+                                            <p class="special__slider-item-title-price">$329.99</p>
+                                        </div>
+                                        <div class="special__slider-item-rate">
+                                            <img src="./imgs/star.png" alt="star" class="special__slider-item-star">
+                                            <img src="./imgs/star.png" alt="star" class="special__slider-item-star">
+                                            <img src="./imgs/star.png" alt="star" class="special__slider-item-star">
+                                            <img src="./imgs/star.png" alt="star" class="special__slider-item-star">
+                                            <img src="./imgs/star.png" alt="star" class="special__slider-item-star">
+                                        </div>
+                                        <p class="special__slider-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        <a href="#" class="special__slider-item-link">See Details</a>
+                                    </div>
+                                </div>
+                                <div class="special__slider-item">
+                                    <img src="./imgs/img6.jpg" alt="room" class="special__slider-item-img">
+                                    <div class="special__slider-item-title">
+                                        <div class="special__slider-item-title-top">
+                                            <h3 class="special__slider-item-title-caption">Living Room Family Set</h3>
+                                            <p class="special__slider-item-title-price">$587.99</p>
+                                        </div>
+                                        <div class="special__slider-item-rate">
+                                            <img src="./imgs/star.png" alt="star" class="special__slider-item-star">
+                                            <img src="./imgs/star.png" alt="star" class="special__slider-item-star">
+                                            <img src="./imgs/star.png" alt="star" class="special__slider-item-star">
+                                            <img src="./imgs/star.png" alt="star" class="special__slider-item-star">
+                                            <img src="./imgs/star.png" alt="star" class="special__slider-item-star">
+                                        </div>
+                                        <p class="special__slider-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        <a href="#" class="special__slider-item-link">See Details</a>
+                                    </div>
+                                </div>
+                                <div class="special__slider-item">
+                                    <img src="./imgs/img5.jpg" alt="room" class="special__slider-item-img">
+                                    <div class="special__slider-item-title">
+                                        <div class="special__slider-item-title-top">
+                                            <h3 class="special__slider-item-title-caption">Living Room Special Set</h3>
+                                            <p class="special__slider-item-title-price">$329.99</p>
+                                        </div>
+                                        <div class="special__slider-item-rate">
+                                            <img src="./imgs/star.png" alt="star" class="special__slider-item-star">
+                                            <img src="./imgs/star.png" alt="star" class="special__slider-item-star">
+                                            <img src="./imgs/star.png" alt="star" class="special__slider-item-star">
+                                            <img src="./imgs/star.png" alt="star" class="special__slider-item-star">
+                                            <img src="./imgs/star.png" alt="star" class="special__slider-item-star">
+                                        </div>
+                                        <p class="special__slider-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        <a href="#" class="special__slider-item-link">See Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="special__slider-scroll">
+                                <div class="special__slider-scroll-line">
+                                    <div class="special__slider-scroll-cursor"></div>
+                                </div>
+                                <div class="special__slider-nav">
+                                    <div class="special__slider-up-btn"><img src="./imgs/arrow-left.png" alt="arrow"></div>
+                                    <div class="special__slider-down-btn"><img src="./imgs/arrow-right.png" alt="arrow"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="creation-section">
+        <div class="heading-background"></div>
+        <div class="container">
+            <div class="creation">
+                <div class="creation__heading">
+                    <h2 class="creation__title">Our <br> Own Creation</h2>
+                    <p class="creation__subtitle">Designed in our studio</p>
+                    <div class="creation__navigation">
+                        <p class="creation__navigation-subtitle">More</p>
+                        <div class="creation__navigation-scroll">
+                            <div class="creation__navigation-line">
+                                <div class="creation__navigation-cursor"></div>
+                            </div>
+                        </div>
+                        <div class="popular-products__slider-bot-nav-btns">
+                            <div class="creation__navigation-btn1"><img src="./imgs/arrow-left.png" alt="arrow"></div>
+                            <div class="creation__navigation-btn2"><img src="./imgs/arrow-right.png" alt="arrow"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="creation__slider">
+                    <div class="creation__slider-line">
+                        <div class="creation__slider-item">
+                            <div class="creation__slider-item-back">
+                                <button class="creation__slider-item-btn">Explore All Rooms</button>
+                            </div>
+                            <img src="./imgs/image-1.jpg" alt="room" class="creation__slider-item-img">
+                        </div>
+                        <div class="creation__slider-item">
+                            <div class="creation__slider-item-back">
+                                <button class="creation__slider-item-btn">Explore All Rooms</button>
+                            </div>
+                            <img src="./imgs/image-2.jpg" alt="room" class="creation__slider-item-img">
+                        </div>
+                        <div class="creation__slider-item">
+                            <div class="creation__slider-item-back">
+                                <button class="creation__slider-item-btn">Explore All Rooms</button>
+                            </div>
+                            <img src="./imgs/image-3.jpg" alt="room" class="creation__slider-item-img">
+                        </div>
+                        <div class="creation__slider-item">
+                            <div class="creation__slider-item-back">
+                                <button class="creation__slider-item-btn">Explore All Rooms</button>
+                            </div>
+                            <img src="./imgs/image-4.jpg" alt="room" class="creation__slider-item-img">
+                        </div>
+                        <div class="creation__slider-item">
+                            <div class="creation__slider-item-back">
+                                <button class="creation__slider-item-btn">Explore All Rooms</button>
+                            </div>
+                            <img src="./imgs/image-5.jpg" alt="room" class="creation__slider-item-img creation__slider-item-img-last">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="benefits-section">
+        <div class="container">
+            <div class="benefits">
+                <h2 class="caption">Benefits for your expediency</h2>
+                <div class="benefits__items">
+                    <div class="benefits__item">
+                        <div class="benefits__icon benefits__icon_1">
+                            <img src="./imgs/icon1.png" alt="icon">
+                        </div> 
+                        <h3 class="benefits__caption">Payment Method</h3>
+                        <p class="benefits__text">We offer flexible payment options, to make easier.</p>
+                    </div>
+                    <div class="benefits__item">
+                        <div class="benefits__icon benefits__icon_2">
+                            <img src="./imgs/icon2.png" alt="icon">
+                        </div> 
+                        <h3 class="benefits__caption">Return policy</h3>
+                        <p class="benefits__text">You can return a product within 30 days.</p>
+                    </div>
+                    <div class="benefits__item">
+                        <div class="benefits__icon benefits__icon_3">
+                            <img src="./imgs/icon3.png" alt="icon">
+                        </div> 
+                        <h3 class="benefits__caption">Customer Support</h3>
+                        <p class="benefits__text">Our customer support is 24/7.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="join-section">
+        <div class="container">
+        <div class="join-section__background">
+            <img src="./imgs/image-1.jpg"  alt="back" class="join-section__background-image">
+            <div class="join-section__background-div"></div>
+        </div>
+        
+        
+       
+            <div class="join-inner">
+                <div class="join">
+                    <h3 class="join__title">Join Our Newsletter</h3>
+                    <p class="join__text">Receive exclusive deals, discounts and many offers.</p>
+                    <input type="text" class="join__input" placeholder="Enter your email">
+                    <button class="join__button">Subscribe</button>                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer">
+                <div class="footer__top">
+                    <div class="footer__info">
+                        <img src="./imgs/logo1.svg" alt="" class="footer__logo">
+                        <div class="footer__item">
+                            <h4 class="footer__item-title footer__item-title-logo">Address</h4>
+                            <a href="#" class="footer__link">+123 654 987</a>
+                            <a href="#" class="footer__link">877  The Bronx, NY</a>
+                            <a href="#" class="footer__link">14568, USA</a>
+                        </div>
+                    </div>
+                    <div class="footer__item">
+                        <h4 class="footer__item-title">My Account</h4>
+                        <a href="#" class="footer__link">Sign in</a>
+                        <a href="#" class="footer__link">Register</a>
+                        <a href="#" class="footer__link">Order status</a>
+                    </div>
+                    <div class="footer__item">
+                        <h4 class="footer__item-title">Help</h4>
+                        <a href="#" class="footer__link">Shipping</a>
+                        <a href="#" class="footer__link">Returns</a>
+                        <a href="#" class="footer__link">Sizing</a>
+                    </div>
+                    <div class="footer__item">
+                        <h4 class="footer__item-title">Shop</h4>
+                        <a href="#" class="footer__link">All Products</a>
+                        <a href="#" class="footer__link">Bedroom</a>
+                        <a href="#" class="footer__link">Dinning Room</a>
+                    </div>
+                    <div class="footer__item">
+                        <h4 class="footer__item-title">Legal Stuff</h4>
+                        <a href="#" class="footer__link">Shipping & Delivery</a>
+                        <a href="#" class="footer__link">Terms & Conditions</a>
+                        <a href="#" class="footer__link">Privacy & Policy</a>
+                    </div>
+                </div>
+                <p class="footer__bot">Copyright ©2020 INWOOD. All Rights Reserved</p>
+            </div>
+        </div>
 </body>
 <script src="./script/utils.js"></script>
+<script src="./script/special.js"></script>
+<script src="./script/credit.js"></script>
 <script src="./script/main.js"></script>
 </html>

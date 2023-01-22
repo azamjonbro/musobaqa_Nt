@@ -1,0 +1,147 @@
+.popular-products-section {
+    padding-top: 150px;
+}
+
+.popular-products {
+    &__slider-bot-btn {
+        margin-top: 54px;
+        width: 265px;
+        height: 73px;
+        background: #70908B;
+        border: none;
+        border-radius: 10px; 
+        align-self: center;      
+        cursor: pointer; 
+        display: flex;
+        align-items: center;
+        padding-left: 38px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px; 
+        color: #FFFFFF;   
+        & img {
+            margin-left: 18px;
+        }     
+        &:hover {
+            background: #5e7975;
+            transition: linear 0.2s;
+        }
+    }
+    &__slider {
+        overflow: hidden;
+        padding-top: 54px;
+        padding-bottom: 54px;
+    }
+    &__slider-line {
+        display: flex;
+        width: 3680px;
+        transition: all 1s ease 0s;
+        position: relative;
+    }
+    &__slider-block {
+        cursor: pointer;
+        width: 430px;
+        margin-right: 30px;
+        height: 585px;    
+        border-radius: 16px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 40px;
+        padding-right: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        &-1 {
+            background: #CAF3E5;  
+        }
+        &-2 {
+            background: #E0EFF6;
+        }
+        &-3 {
+            background: #EEEBFF;
+        }
+        &-4 {
+            background: #FFF4E7;
+        }
+        &-img {     
+            align-self: center;      
+        }
+        &-bot {
+            display: flex;
+            flex-direction: column;
+            height: 131px;
+            justify-content: space-between;
+            &-title {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 36px;
+                color: #70908B;                
+            }
+            &-subtitle {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 25px;  
+                color: #70908B;                
+            }
+            &-price {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 36px;
+                color: #70908B;  
+            }
+        }
+    }
+    &__slider-bot {
+        display: flex;
+        flex-direction: column;
+        &-nav-btns { 
+            display: flex;
+            width: 104px;
+            justify-content: space-between;
+            align-self: flex-end;
+        }
+        &-nav-btn1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            width: 40px;
+            height: 40px;
+            background: #E0EFF6;
+            border-radius: 100px;            
+        }
+        &-nav-btn2 {
+            display: flex;
+            align-items: center;                                
+            justify-content: center;                                
+            cursor: pointer;                                
+            width: 40px;                                
+            height: 40px;                               
+            background: #F9D9DA;                                
+            border-radius: 100px;                                           
+        }                               
+        &-nav-line  {
+            display: flex;
+            align-items: center;
+            width: 1320px;
+            height: 8px;       
+            background-color: #07484A;    
+            margin-bottom: 20px;
+        }
+        &-nav-cursor {
+            transition: all 1s ease 0s;
+            position: relative;
+            width: 220px;
+            height: 16px;       
+            background-color: #70908B;     
+        }
+    }
+}

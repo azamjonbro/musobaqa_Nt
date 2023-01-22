@@ -1,0 +1,534 @@
+@media screen and (max-width: 1350px) {
+    .container {
+        width: 910px;
+    }
+    .header {
+        &__navigation {
+            width: 500px;
+        }
+        &__right {
+            width: 120px;
+        }
+    }
+    .underheader {
+        height: 350px;
+    }
+    .categories-section {
+        padding-top: 80px;
+    }
+    .chooser {
+        padding-top: 80px;
+        &-card {
+            width: 450px;
+            height: 280px;        
+            &__title {
+                font-size: 58px;
+                line-height: 70px;                
+            }    
+        }
+        &-cards {
+            padding-top: 80px;
+            width: 910px;
+            height: 1000px;
+        }
+    }
+    .rooms {
+        width: 910px;
+        &__link {
+            font-size: 20px;
+            line-height: 24px;            
+        }
+    }
+    .popular-products-section {
+        padding-top: 100px;
+    }
+    .popular-products {
+        &__slider-bot-nav-line {
+            width: 910px;
+        }
+        &__slider-bot-nav-cursor {
+            width: 151.66px;
+        }
+    }
+    .special-section {
+        padding-top: 100px;
+    }
+    .special {
+        &__big-img {
+            height: 300px;
+        }
+        &__slider {
+            height: 368px;
+        }
+        &__big-product {
+            width: 400px;
+            &-bot-title {
+                height: 180px;
+            }
+        }
+        &__slider-block {
+            width: 490px;
+        }
+        &__slider-item {
+            width: 450px;
+            height: 170px;
+            margin-bottom: 14px;
+            &-title {
+                width: 280px;
+            }
+            &-img {
+                width: 150px;
+                height: 100px;
+
+            }
+        }
+    }
+    .creation-section {
+        padding-top: 100px;
+    }
+    .heading-background {
+        width: 45%;
+    }
+    .creation {
+        &__slider {
+            width: 450px;
+            &-item-img-last {
+                display: none;
+            }
+        }
+    }
+    .join-section {
+        padding-top: 100px;
+        &__background-div {
+            height: 500px;
+        }
+        &__background-image {
+            object-fit:cover;
+        }
+    }
+    .join {
+        width: 400px;
+        &__title {
+            font-size: 58px;
+            line-height: 75px;            
+        }
+        &__text {
+            font-size: 20px;
+            line-height: 24px;  
+            margin-bottom: 25px;          
+        }
+        &__input {
+            width: 500px;
+            height: 40px;  
+            margin-bottom: 25px;             
+        }
+        &__button {
+            width: 250px;
+            height: 48px;  
+            font-size: 20px;
+            line-height: 24px;                      
+        }
+    }
+    .footer-section {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .container {
+        width: 710px;
+    }
+    .header {
+        &__navigation  {
+            display: none;
+        }
+    }
+    .underheader-section {
+        padding-top: 130px;
+        padding-bottom: 130px;
+    }
+    .underheader {
+        height: 290px;
+        &__title {
+            font-size: 54px;
+            line-height: 70px;           
+        }
+        &__text {
+            font-size: 18px;
+            line-height: 25px;            
+        }
+        &__btn {
+            width: 200px;
+            height: 70px;   
+            font-size: 20px;
+            line-height: 28px;                    
+        }
+    }
+    .caprion {
+        font-size: 54px;
+        line-height: 70px;        
+    }
+    .chooser {
+        padding-top: 50px;
+    }
+    .rooms {
+        width: 710px;
+        justify-content: center;
+        height: 80px;
+    }
+    .rooms__link {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .filters {
+        &__btn {
+            width: 200px;
+            height: 60px;   
+            font-size: 16px;
+            line-height: 20px; 
+            padding-left: 25px;                    
+        }
+    }
+    .chooser-cards {
+        width: 710px;
+        height: 800px;
+    }
+    .chooser-card {
+        width: 345px;
+        height: 220px;
+        &__title {
+            font-size: 40px;
+            line-height: 50px;            
+        }
+    }
+    .popular-products {
+        &__slider-bot {
+            &-nav-line {
+                width: 710px;
+            }
+            &-nav-cursor {
+                width: 118.3px;
+            }
+        }
+    }
+    .special__inner {
+        padding-top: 70px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .special {
+        &__big-product {
+            width: 500px;
+            &-bot-title {
+                height: 130px;
+            }
+        }
+        &__big-img {
+            height: 400px;
+        }
+        &__slider-block {
+            margin-top: 40px;
+            width: 500px;
+        }
+    }
+    .creation {
+        &__slider {
+            width: 340px;
+        }
+    }
+    .heading-background {
+        width: 50%;
+    }
+    .caption {
+        font-size: 48px;
+        line-height: 60px;        
+    }
+    .benefits {
+        &__item {
+            width: 200px;
+        }
+        &__caption {
+            font-size: 28px;
+            line-height: 36px;            
+        }
+        &__text {
+            font-size: 20px;
+            line-height: 24px;            
+        }
+    }
+    .join-section {
+        &__background-div {
+            width: 70%;
+            height: 450px;
+        }
+    }
+    .join {
+        padding-top: 50px;
+        &__title {
+            font-size: 44px;
+            line-height: 50px;   
+            margin-bottom: 15px;         
+        }
+        &__text {
+            font-size: 18px;
+            line-height: 20px;
+            margin-bottom: 15px;            
+        }
+        &__input {
+            font-size: 18px;
+            line-height: 20px;      
+            width: 400px;      
+        }
+    }
+    .footer {
+        &__item {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        &__top {
+            flex-wrap: wrap;
+            height: 400px;
+        }
+        &__bot {
+            margin-top: 40px;
+        }
+    }
+    .popular-products__slider-block {
+        width: 430px;
+    }
+    .chooser-card {
+        &__btn {
+            display: block;
+        }
+        &__title {
+            display: flex;
+        }
+        &__filter {
+            display: flex;
+        }
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .top-section {
+        background-position: left;
+    }
+    .container {
+        width: 350px;
+    }
+    .underheader {
+        &__title {
+            width: 350px;
+            font-size: 40px;
+            line-height: 50px;            
+        }
+        &__btn {
+            width: 350px;
+        }
+    }
+    .rooms {
+        flex-wrap: nowrap;
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .search {
+        margin-bottom: 20px;
+    }
+    .filters {
+        &__btn {
+            margin-top: 20px;
+        }
+    }
+    .rooms__link + .rooms__link {
+        margin-top: 10px;
+    }
+    .chooser-cards {
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: column; 
+        height: 1500px;
+        width: auto;
+    }
+    .popular-products {
+        &__slider-bot-nav-line {
+            width: 350px;
+        }
+        &__slider-bot-nav-cursor {
+            width: 58px;
+        }
+        &__slider-block {
+            width: 350px;
+            margin-right: 110px;
+        }
+    }
+    .special {
+        &__big-product {
+            width: 350px;
+            &-bot {
+                flex-direction: column;
+                &-btn {
+                    margin-top: 20px;
+                    width: 350px;
+                }
+            }
+        }
+        &__slider-block {
+            width: 350px;
+        }
+        &__slider {
+            display: none;
+        }
+        &__big-img {
+            height: 300px;
+        }
+    }
+    .creation {
+        height: 800px;
+        flex-direction: column-reverse;
+        &__slider {
+            height: 480px;
+        }
+    }
+    .heading-background {
+        margin-top: 500px;
+        width: 100%;
+        height: 400px;
+    }
+    .benefits-section {
+        margin-top: 200px;
+    }
+    .benefits {
+        &__item {
+            height: 280px;
+        }
+        &__items {
+            height: 900px;
+            align-items: center;
+            flex-direction: column;
+        }
+    }
+    .footer {
+        &__top {
+            flex-wrap: nowrap;
+            flex-direction: column;
+            height: auto;
+        }
+        &__info {
+            margin-bottom: 20px;
+        }
+    }
+    .footer__item + .footer__item {
+        margin-top: 20px;
+    }
+    .join-section {
+        margin-top: 100px;
+        padding-top: 0;
+        background-color: #E0F6F1;
+        &__background-image {
+            display: none;
+        }
+    }
+    .join {
+        &__title {
+            margin-bottom: 25px;
+        }
+        &__text {
+            margin-bottom: 25px;
+        }
+        width: 350px;
+        &__button {
+            width: 350px;
+        }
+        &-inner {
+            padding-bottom: 100px;
+        }
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .container {
+        width: 320px;
+    }
+    .underheader {
+        &-section {
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+        &__title {
+            width: 100%;
+        }
+        &__text {
+            width: 100%;
+        }
+        &__btn {
+            width: 100%;
+        }
+    }
+    .chooser-card {
+        width: 100%;
+        height: 210px;
+    }
+    .chooser-cards {
+        height: 1450px;
+    }
+    .popular-products {
+        &__slider-block {
+            width: 100%;
+            margin-right: 140px;
+        }
+        &__slider-bot {
+            &-nav-line {
+                width: 100%;
+            }
+            &-nav-cursor {
+                width: 53px;
+            }
+            &-btn {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+    .special {
+        &__big-product {
+            width: 100%;
+            &-bot-btn {
+                width: 100%;
+            }
+        }
+        &__slider-block {
+            width: 100%;
+        }
+
+    }
+    .creation {
+        &__slider {
+            width: 100%;
+        }
+        &__heading {
+            width: 100%;
+        }
+    }
+    .heading-background {
+        height: 350px;
+    }
+    .benefits-section {
+        margin-top: 100px;
+    }
+    .join {
+        width: 100%;
+        &__input {
+            width: 100%;
+        }
+        &__button {
+            width: 100%;
+        }
+    }
+    .footer-section {
+        padding-top: 0;
+    }
+}

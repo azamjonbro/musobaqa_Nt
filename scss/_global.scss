@@ -3,10 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .container{
+    padding: 0 20px;
     margin: 0 auto;
-    max-width: 1690px;
+    max-width: 1320px;
 }
+
 body{
     font-family: 'Open Sans';
+}
+.join-section__background-image{
+    width: 621px !important;
+    height: 410px;
 }
